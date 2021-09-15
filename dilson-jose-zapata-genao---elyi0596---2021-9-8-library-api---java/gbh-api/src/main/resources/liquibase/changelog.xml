@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="3" author="dzapata">
+        <comment>ddl and dml bd</comment>
+        <sqlFile encoding="UTF-8"
+                 path="src\main\resources\liquibase\scripts\001_ddl_dml_gbh_db.sql"
+                 splitStatements="true" stripComments="true"/>
+    </changeSet>
+
+</databaseChangeLog>
